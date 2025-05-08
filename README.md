@@ -157,7 +157,7 @@
 <p align="center">
   <img src="preview/02.png" width="100%" alt="Desktop Preview" />
   <img src="preview/03.png" width="66%" alt="Tablet Preview" />
-  <img src="preview/0.4" width="33%" alt="Mobile Preview" />
+  <img src="preview/04.png" width="33%" alt="Mobile Preview" />
 </p>
 
 
