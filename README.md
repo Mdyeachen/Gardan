@@ -47,18 +47,18 @@
 
 ## 💡 Creadit 
 
-[Bootstrap v4.4.1](https://getbootstrap.com/)
-[Fontawesome 5.11.2](https://fontawesome.com)
-[Jarallex 1.12.2](https://github.com/nk-o/jarallax)
-[Lightbox v2.11.1](http://lokeshdhakar.com/projects/lightbox2/)
-[model](http://github.com/kylefox/jquery-modal)
-[normalize v8.0.1](http://github.com/necolas/normalize.css)
-[preloader](https://css-loaders.com/)
-[isotop](https://isotope.metafizzy.co/)
-[jQuery v3.4.1](https://jquery.com/download/)
-[sticky v1.0.4](http://stickyjs.com/)
-[Modernizr v2.8.3](www.modernizr.com)
-wmbox
+- [Bootstrap v4.4.1](https://getbootstrap.com/)
+- [Fontawesome 5.11.2](https://fontawesome.com)
+- [Jarallex 1.12.2](https://github.com/nk-o/jarallax)
+- [Lightbox v2.11.1](http://lokeshdhakar.com/projects/lightbox2/)
+- [model](http://github.com/kylefox/jquery-modal)
+- [normalize v8.0.1](http://github.com/necolas/normalize.css)
+- [preloader](https://css-loaders.com/)
+- [isotop](https://isotope.metafizzy.co/)
+- [jQuery v3.4.1](https://jquery.com/download/)
+- [sticky v1.0.4](http://stickyjs.com/)
+- [Modernizr v2.8.3](www.modernizr.com)
+- wmbox
 
 ---
 
