@@ -156,8 +156,14 @@
 
 <p align="center">
   <img src="preview/02.png" width="100%" alt="Desktop Preview" />
-  <img src="preview/03.png" width="66%" alt="Tablet Preview" />
-  <img src="preview/04.png" width="33%" alt="Mobile Preview" />
+  <p align="center" width="66%">
+    **Tablet Preview**
+    <img src="preview/03.png" width="100%" alt="Tablet Preview" />
+  </p>
+    <p align="center" width="33%">
+    **Tablet Preview**
+    <img src="preview/04.png" width="100%" alt="Mobile Preview" />
+  </p>
 </p>
 
 
