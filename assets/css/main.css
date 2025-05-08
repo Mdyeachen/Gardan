@@ -1,0 +1,866 @@
+/*===
+    font link start
+===*/
+
+/*===
+    font link finish
+===*/
+
+
+/*===
+    global css start 
+===*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.hover_effect {
+    transition: 1s
+}
+
+p {
+    padding: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 0;
+}
+
+/*===
+    global css finish 
+===*/
+
+
+
+/*===
+    main css  start
+===*/
+
+/*preloader area */
+.preloder-area {
+    position: fixed;
+    z-index: 9999;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: #4CAF50;
+}
+
+.preloder-area .sk-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.preloder-area .sk-circle .sk-child:before {
+    background: #fff;
+}
+
+/*preloader area */
+/*header area */
+.sticky-wrapper {
+    position: absolute;
+    width: 100%;
+}
+
+.header-part {
+    color: #fff;
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+}
+
+.header-part:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.4;
+}
+
+.header-part.fixed-menu {
+    z-index: 99 !important;
+    box-shadow: 0px 1.5px 4px 0px #dadada;
+    background: #fff;
+}
+
+.header-part.fixed-menu:before {
+    background: #fff;
+}
+
+.header-part.fixed-menu .navbar-light .navbar-nav .nav-link {
+    color: #888888;
+}
+.header-part .navbar-brand h4 {
+    color: #4caf50;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.header-part .nav-item a {
+    color: #ded7d0;
+}
+
+.header-part .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 10px;
+}
+
+.header-part .navbar-light .navbar-nav .nav-item .nav-link.active {
+    color: #27ae60;
+}
+
+.header-part li.nav-item {
+    padding: 0 5px;
+}
+
+.header-part button.header-btn {
+    background: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 5px 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.header-part nav.navbar.navbar-expand-lg.navbar-light {
+    padding: 1.5% 0;
+}
+
+.header-part a.navbar-brand h4 {
+    padding: 3% 0;
+}
+
+/*header area */
+/*slider area */
+.slider-bg {
+    background: url(../images/garden-1.jpg);
+}
+
+.slider-area {
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+    z-index: 1;
+    color: white;
+    background-position: center top;
+    background-size: 100%;
+}
+
+.slider-area:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.slider-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-tablecell {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.slider-text {
+    max-width: 600px;
+}
+
+.slider-text h1 {
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 62px;
+    margin-top: 15%;
+    margin-bottom: 1%;
+}
+
+.slider-text p {
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.slider-text .slider-btn {
+    transition: 0.3s;
+    background: white;
+    border-radius: 55px;
+    width: 30%;
+    padding: 1.5% 0%;
+    margin-top: 5%;
+}
+
+.slider-text .slider-btn:hover {
+    color: white;
+    background: #27AE60;
+}
+
+/*slider area */
+/*about us area */
+.about-us-area {
+    padding: 90px 0;
+}
+
+.about-meta h2 {
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 400;
+}
+
+.about-meta p {
+    color: #555555;
+    line-height: 24px;
+}
+
+.about-meta .blackquote-bg {
+    background: #F6F6F6;
+    border-left: 8px solid #2C3E50;
+    border-radius: 8px 8px 0;
+    padding: 2% 3% 2% 5%;
+}
+
+.about-meta .blackquote-bg p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #555555;
+}
+
+.about-meta .blackquote-bg footer.footer-blockquote {
+    font-size: 16px;
+    color: #555;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about-meta .about-btn {
+    background: #4caf50;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    border-radius: 55px;
+    padding: 2% 7%;
+    transition: 0.3s;
+}
+
+.about-meta .about-btn:hover {
+    background: white;
+    color: #4caf50;
+    border: 1px solid #4caf50;
+}
+
+.about-popop {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #275d42;
+    z-index: 1
+}
+
+.about-popop:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: url(../images/garden-3.jpg);
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+}
+
+.about-popop:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: black;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.about-popop-table {
+    height: 100%;
+    display: table;
+    width: 100%;
+}
+
+.about-popop-tablecell {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.wmBox_overlay {
+    z-index: 999;
+}
+
+.wmBox_overlay {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/*about us area */
+/*service part 1 area */
+.service-part-1 {
+    background: #4CAF50;
+    color: white;
+    padding: 50px 0;
+}
+
+.service-part-1-single-item img {
+    max-width: 350px;
+    max-height: 175px;
+    margin-bottom: 5%;
+}
+
+.service-part-1-single-item p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+/*service part 1 area */
+/*our service area */
+.our-service-area {
+    padding: 100px 0 70px;
+    background: #F6F6F6;
+}
+
+.common-part-header {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.common-part-header h3 {
+    line-height: 34px;
+    color: #27ae60;
+}
+
+.common-part-header p {
+    line-height: 24px;
+    color: #555555;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
+.our-service-single-item {
+    background: white;
+    padding: 30px 35px;
+    margin: 15px 0;
+    border-radius: 5px
+}
+
+.our-service-single-item img {
+    height: 100%;
+}
+
+.our-service-single-item h5 {
+    line-height: 24px;
+    font-weight: 400;
+    padding: 5% 0 0%;
+}
+
+.our-service-single-item p {
+    line-height: 24px;
+    color: #555555;
+    font-weight: 300;
+}
+
+/*our service area */
+/*protfolio project area */
+.project-protfolio-area {
+    padding-top: 95px;
+}
+
+.project-protfolio-header p {
+    margin: 0;
+    padding: 0;
+}
+
+.project-protfolio-header p {
+    padding-bottom: 25px;
+}
+
+ul.project-protfolio-menu-bar li {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0.5%;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+    border-bottom: 1px solid #fff;
+}
+
+ul.project-protfolio-menu-bar li:hover,
+ul.project-protfolio-menu-bar li.active {
+    color: #27AE60;
+    border-bottom: 1px solid #27AE60;
+}
+
+ul.project-protfolio-items li {
+    max-width: 25%;
+    overflow: hidden;
+}
+
+ul.project-protfolio-items li:hover .project-protfolio-single-item-hover {
+    visibility: visible;
+    opacity: 0.9;
+    transform: scale(0.9)
+}
+
+ul.project-protfolio-items li img {
+    width: 100%;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+ul.project-protfolio-items li:hover img {
+    transform: scale(1);
+}
+
+ul.project-protfolio-items li .project-protfolio-single-item-hover {
+    position: absolute;
+    top: 10%;
+    left: 9%;
+    height: 80%;
+    width: 84%;
+    background: white;
+    opacity: 0;
+    border-radius: 7px;
+    visibility: hidden;
+    transition: 0.4s;
+    transform: scale(1)
+}
+
+
+.project-protfolio-single-item-hover-table {
+    height: 100%;
+    display: table;
+    width: 100%;
+}
+
+.project-protfolio-single-item-hover-tablecell {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.project-protfolio-single-item-hover h6 {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.project-protfolio-single-item-hover p {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #555555;
+    margin: 0;
+}
+
+.project-protfolio-single-item-hover a {
+    font-size: 35px;
+    color: #000000;
+}
+
+/*protfolio project area */
+/*project bottom area */
+.project-bottom-area {
+    padding: 100px 0 50px;
+    background-color: #4CAF50;
+    position: relative;
+    z-index: 1;
+}
+
+.project-bottom-area:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    content: "";
+    background: url(../images/garden-4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.project-bottom-meta {
+    padding: 0 5%;
+}
+
+.project-bottom-single-item {
+    background: white;
+    padding: 4% 8%;
+    margin-bottom: 10%;
+    border-radius: 6px;
+}
+
+
+.project-bottom-single-item img {
+    height: 55px;
+}
+
+.project-bottom-single-item h5 {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0;
+    padding: 6% 0 2%;
+}
+
+.project-bottom-single-item p {
+    line-height: 24px;
+    font-weight: 300;
+    color: #555555;
+}
+
+
+/*project bottom area */
+/*team member area */
+.team-member {
+    background: #F6F6F6;
+    padding: 100px;
+}
+
+.team-single-member {
+    position: relative;
+    z-index: 1;
+}
+
+.team-single-member img {
+    width: 100%;
+}
+
+.team-single-member-id {
+    background: #4CAF50;
+    color: #fff;
+    padding: 5% 0px;
+    position: absolute;
+    bottom: -13%;
+    width: 80%;
+    left: 10%;
+    height: 38%;
+    z-index: 2;
+    border-radius: 5px;
+}
+
+.team-single-member-id h4 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.team-single-member-id p {
+    line-height: 24px;
+    font-weight: 300;
+}
+
+/*team member area */
+/*team website area */
+.team-website-bg {
+    background: url(../images/garden-5.jpg);
+}
+
+.team-website-area {
+    position: relative;
+    z-index: 1;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.team-website-area:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background: #000000;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.team-wesite-area-meta h1 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 300;
+}
+
+.team-wesite-area-meta a button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    line-height: 46px;
+    border-radius: 55px;
+    padding: 0.2% 3%;
+    transition: 0.3s;
+}
+
+.team-wesite-area-meta a button:hover {
+    color: #fff;
+    background: #27AE60;
+    border-color: #27AE60;
+}
+
+/*team website area */
+/*last news area */
+.last-news-area {
+    padding: 100px;
+}
+
+.last-news-header p {
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+}
+
+.last-news-header h3 {
+    padding-bottom: 50px;
+}
+
+.last-single-news {
+    overflow: hidden;
+}
+
+.last-single-news-img {
+    position: relative;
+}
+
+.last-single-news img {
+    width: 100%;
+}
+
+.last-single-news a button.last-news-absolute {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 0;
+    width: 20%;
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+    z-index: 1;
+}
+
+.last-single-news a h4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 400;
+    margin: 0;
+    padding: 2% 0;
+}
+
+.last-news-post a {
+    color: #111111;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0% 3% 3% 0%;
+    display: inline-block;
+}
+
+.last-single-news p {
+    color: #555;
+    font-weight: 300;
+}
+
+button.btn.last-news-read-more-btn {
+    background: #4CAF50;
+    color: #fff;
+    border-radius: 55px;
+    padding: 1% 5%;
+}
+
+button.btn.last-news-read-more-btn:hover {
+    background: #218838;
+}
+
+.last-single-news-meta {
+    padding: 0 3%;
+}
+
+/*last news area */
+/*contact area */
+.contact-area {
+    padding: 40px 0px;
+    background: #4CAF50;
+    color: #fff;
+}
+
+.contact-meta-showing-part h1 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 300;
+}
+
+.contact-meta-showing-part a button {
+    color: #fff;
+    line-height: 46px;
+    font-weight: 400;
+    border: 2px solid #fff;
+    padding: 0% 4%;
+    border-radius: 55px;
+}
+
+.contact-meta-showing-part a button:hover {
+    background: #27AE60;
+    border-color: #27AE60;
+    color: #fff;
+}
+.jquery-modal.blocker.current {
+    z-index: 99;
+}
+.login-form.modal {
+    min-width: 800px;
+    height: auto;
+    overflow: visible;
+}
+
+.login-form.modal:before {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    border-top: 1px solid #ececec;
+}
+
+.contact-form-meta h3 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000;
+    padding: 0% 0% 5%;
+}
+
+.contact-form-meta input,
+.contact-form-meta textarea {
+    width: 100%;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #495057;
+    margin: 15px 0;
+    padding: 12px 20px;
+    border: 1px solid #dadada;
+}
+
+.contact-form-meta textarea {
+    min-height: 200px;
+}
+
+.contact-form-meta button[type=submit] {
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 2% 5%;
+    display: block;
+    margin: 2% auto;
+    border-radius: 55px;
+    transition: 0.3s;
+}
+
+.contact-form-meta button[type=submit]:hover {
+    background: #218838;
+}
+
+/*contact area */
+/*footer area */
+.footer-area {
+    padding: 45px 0;
+    background: #111111;
+    color: #fff;
+}
+
+.footer-area p {
+    margin: 0;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.footer-area p a {
+    color: #fff;
+    transition: 0.2s;
+}
+
+.footer-area p a:hover {
+    color: #27ae60;
+}
+
+/*footer area */
+/*go-top area */
+.go_top.fixed-class {
+    position: fixed;
+    z-index: 99;
+}
+
+.go_top {
+    bottom: 35px;
+    right: 50px;
+}
+
+button#top-botton {
+    height: 36px;
+    width: 36px;
+    border: none;
+    border-radius: 30px 30px 0px 0px;
+    background: #0e9078;
+    color: #fff;
+}
+
+/*go-top area */
+
+/*===
+    main css finish
+===*/
